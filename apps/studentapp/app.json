@@ -1,0 +1,40 @@
+{
+	"expo": {
+		"name": "studentapp",
+		"slug": "studentapp",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#FFFFFF"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"plugins": [
+			[
+				"config-plugin-react-native-intercom",
+				{
+					"iosApiKey": "ios_sdk-406710f8e829a0048c347648d83e2dfeedc4e0ef",
+					"androidApiKey": "android_sdk-16826e80222ad8088c4a9b1f499a8b2d2bdd4258",
+					"appId": "s2was94u"
+				}
+			]
+		]
+	}
+}
